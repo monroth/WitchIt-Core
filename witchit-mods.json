@@ -1,0 +1,147 @@
+{
+ "mods": {
+  "core": {
+   "description": "Library: the runtime, its native part and the updater. Everything needs it.",
+   "folders": [
+    "Core",
+    "WitchItRuntime",
+    "WitchItNativeProducer"
+   ],
+   "name": "Core",
+   "sync": false,
+   "tags": [
+    "technical"
+   ],
+   "versions": {
+    "0.3.3": {
+     "folders": [
+      "Core",
+      "UIKit",
+      "WitchItRuntime",
+      "WitchItNativeProducer"
+     ],
+     "needs": {},
+     "sha256": "ddb22f4f714b9a255ff34d50d70e5d6705d718c6314b2cb701836df5786789cb"
+    },
+    "0.4.0": {
+     "folders": [
+      "Core",
+      "WitchItRuntime",
+      "WitchItNativeProducer"
+     ],
+     "needs": {},
+     "sha256": "f6a0c53d3b182b0708f25d1327e0243978de55c1eb018a2e6d67ecc59ab6cf11"
+    },
+    "0.5.0-nightly.202611210204": {
+     "folders": [
+      "Core",
+      "WitchItRuntime",
+      "WitchItNativeProducer"
+     ],
+     "needs": {},
+     "sha256": "714bf1a25360f6c251eae7a0efa4e1ebc8496045a0465f31e90b2f975bdb6bac"
+    }
+   }
+  },
+  "mapmarkers": {
+   "description": "Library of the Creative tools: marker objects for your maps.",
+   "folders": [
+    "MapMarkers"
+   ],
+   "name": "Map markers",
+   "sync": false,
+   "tags": [
+    "technical",
+    "creative"
+   ],
+   "versions": {
+    "0.1.0": {
+     "folders": [
+      "MapMarkers"
+     ],
+     "needs": {
+      "core": "0.4.*",
+      "uikit": "0.4.*"
+     },
+     "sha256": "d6f19fe282464bf7da01659468efe68eca5603bd446048b50ef64a70f2169747"
+    },
+    "0.2.0-nightly.202611210204": {
+     "folders": [
+      "MapMarkers"
+     ],
+     "needs": {
+      "core": "0.5.0-nightly.202611210204",
+      "monroth/WitchIt-Modpack:effectkit": "0.1.0-nightly.202611210204",
+      "uikit": "0.5.0-nightly.202611210204",
+      "worldkit": "0.2.0-nightly.202611210204"
+     },
+     "sha256": "eee5eeeb1b786eecd2bf5091c003db7d6c588dd01b66df4b102d2736526e266f"
+    }
+   }
+  },
+  "uikit": {
+   "description": "Library: the mods' menus, settings and shortcuts.",
+   "folders": [
+    "UIKit"
+   ],
+   "name": "UIKit",
+   "sync": false,
+   "tags": [
+    "technical",
+    "client"
+   ],
+   "versions": {
+    "0.4.0": {
+     "folders": [
+      "UIKit"
+     ],
+     "needs": {
+      "core": "0.4.*"
+     },
+     "sha256": "034c6c2213b387f1f4aa61024b87824c0a854727f0d7a882a9577f1130e741f9"
+    },
+    "0.5.0-nightly.202611210204": {
+     "folders": [
+      "UIKit"
+     ],
+     "needs": {
+      "core": "0.5.0-nightly.202611210204"
+     },
+     "sha256": "af75c49385290c600509a56a2998d726343609e17f68ecfc843e3ad2f15d38e2"
+    }
+   }
+  },
+  "worldkit": {
+   "description": "Library of the Creative tools: selection, changes and undo.",
+   "folders": [
+    "WorldKit"
+   ],
+   "name": "WorldKit",
+   "sync": false,
+   "tags": [
+    "technical",
+    "creative"
+   ],
+   "versions": {
+    "0.1.0": {
+     "folders": [
+      "WorldKit"
+     ],
+     "needs": {
+      "core": "0.4.*"
+     },
+     "sha256": "77ee88452ef49a8c334e5f8fd3e3ecfc75a6d9f011a331b725fba0d9e8933986"
+    },
+    "0.2.0-nightly.202611210204": {
+     "folders": [
+      "WorldKit"
+     ],
+     "needs": {
+      "core": "0.5.0-nightly.202611210204"
+     },
+     "sha256": "832099859806a255702394f73259a4c8167d0e4cd5e6c408fe4a5fe6d1f97dc7"
+    }
+   }
+  }
+ }
+}
